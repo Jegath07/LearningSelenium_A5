@@ -31,6 +31,7 @@ public class HandlingWebtable {
 	     List<WebElement> allnamerow = driver.findElements(By.xpath("//table[@id='myTable']//tr[3]/td"));
 	     for (int i =0;i<allnamerow.size();i++) {
 	    	 System.out.println(allnamerow.get(i).getText());
+	    	 System.out.println("nishannth gay ");
 	     }
 	     
 	    driver.close();
